@@ -1,14 +1,31 @@
-Inventory Management & Robotics Optimization System
-Overview
-This project implements an inventory management and robotics optimization system designed to manage warehouse inventory, analyze key performance indicators (KPIs), and optimize robotic picking efficiency. It uses Python and SQL for data handling, while leveraging NumPy for path optimization to reduce average pick times.
+# Warehouse Data Pipeline & Analytics System
 
-Key Features
-Warehouse Inventory Management: Tracks and manages warehouse items, including stock levels, locations, and item details.
+This project implements an end-to-end data pipeline and analytics system for warehouse inventory management. It integrates multiple data sources, performs automated data quality checks, transforms and models the data for efficient querying, and visualizes key performance indicators (KPIs) to support data-driven decision-making.
 
-Real-Time Item Search: Allows users to search for items in real-time across the warehouse.
+---
 
-KPIs Analysis: Monitors and analyzes key performance indicators related to warehouse operations.
+## 🛠️ Tech Stack
 
-Robotic Path Optimization: Uses NumPy to optimize pick paths for robotic systems, reducing pick time by simulating various paths and selecting the most efficient one.
+- **Languages:** Python, SQL  
+- **Orchestration:** Apache Airflow  
+- **Databases:** PostgreSQL, MySQL  
+- **Visualization:** Tableau  
+- **Libraries:** Pandas, NumPy
 
-Slow Zone Identification: Identifies slow zones in the warehouse to optimize robot movement and improve efficiency.
+---
+
+## ⚙️ Features
+
+- **ETL Pipeline:** Built with Python and Airflow to extract, clean, transform, and load data from various sources.
+- **Data Modeling:** SQL-optimized star/snowflake schema design for fast querying and reporting.
+- **Performance Optimization:** Parallel batch processing reduced data processing time from 45 to 17 minutes.
+- **KPI Dashboards:** Interactive Tableau dashboards visualizing inventory turnover, order fulfillment rates, and discrepancy trends.
+
+---
+
+## 📊 Dashboards
+
+The Tableau dashboards provide insights into:
+- Inventory accuracy and turnover
+- Order fulfillment efficiency
+- Historical trends and anomalies
