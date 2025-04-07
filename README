@@ -1,0 +1,14 @@
+Inventory Management & Robotics Optimization System
+Overview
+This project implements an inventory management and robotics optimization system designed to manage warehouse inventory, analyze key performance indicators (KPIs), and optimize robotic picking efficiency. It uses Python and SQL for data handling, while leveraging NumPy for path optimization to reduce average pick times.
+
+Key Features
+Warehouse Inventory Management: Tracks and manages warehouse items, including stock levels, locations, and item details.
+
+Real-Time Item Search: Allows users to search for items in real-time across the warehouse.
+
+KPIs Analysis: Monitors and analyzes key performance indicators related to warehouse operations.
+
+Robotic Path Optimization: Uses NumPy to optimize pick paths for robotic systems, reducing pick time by simulating various paths and selecting the most efficient one.
+
+Slow Zone Identification: Identifies slow zones in the warehouse to optimize robot movement and improve efficiency.
